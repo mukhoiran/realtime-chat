@@ -118,18 +118,25 @@
 <script src="/__/firebase/init.js"></script>
 
 
-<script src="https://www.gstatic.com/firebasejs/5.11.1/firebase.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
 <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyD9x2LT6DwpNNr5vpruIjb2ukYTqcPs8tU",
-    authDomain: "larafire-6bc32.firebaseapp.com",
-    databaseURL: "https://larafire-6bc32.firebaseio.com",
-    projectId: "larafire-6bc32",
-    storageBucket: "larafire-6bc32.appspot.com",
-    messagingSenderId: "284222784990"
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDYDu8MyHvm1kH9oG4IuK6OZY9apLaO91o",
+    authDomain: "chat-f4beb.firebaseapp.com",
+    databaseURL: "https://chat-f4beb.firebaseio.com",
+    projectId: "chat-f4beb",
+    storageBucket: "chat-f4beb.appspot.com",
+    messagingSenderId: "718125054158",
+    appId: "1:718125054158:web:c65798c2026ada29"
   };
-  firebase.initializeApp(config);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 </script>
 
 <script src="scripts/main.js"></script>

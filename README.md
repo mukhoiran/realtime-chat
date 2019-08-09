@@ -1,2 +1,2 @@
 # realtime-chat
-Developmont realtime chat using firestore and nodeJS
+Realtime chat using firestore and nodeJS 
